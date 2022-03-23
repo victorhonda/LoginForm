@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #313030;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.login {
+  background: #252525;
+  height: auto;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #353535;
+  color: #dedede;
+  font-size: 14px;
+  width: 100%;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  padding: 15px;
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 14px;
+}
+
+form a {
+  text-decoration: none;
+  color: #dedede;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+form a:hover {
+  color: #0067de;
+  text-decoration: underline;
+}
+
+form [type="submit"] {
+  background: #0067de;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+form [type="submit"]:hover {
+  background: #08468d;
+}
+
+p {
+  color: #dedede;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p a {
+  color: #0067de;
+}
