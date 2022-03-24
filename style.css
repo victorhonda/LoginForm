@@ -3,6 +3,12 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 body {
   background: #313030;
 }
@@ -89,4 +95,26 @@ p {
 
 p a {
   color: #0067de;
+}
+
+/* STYLE DASHBOARD */
+
+header {
+  height: 60px;
+  background: #252525;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.logo-header-dashboard img {
+  height: 50px;
+  align-items: center;
 }
